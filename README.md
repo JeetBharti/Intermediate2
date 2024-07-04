@@ -85,3 +85,16 @@ contract EnhancedContract {
     }
 }
 ```
+Compile the smart contract.
+Deploy the smart contract to an Ethereum test network (e.g., Ropsten, Rinkeby) using MetaMask.
+
+## Interacting with the DApp
+Connect MetaMask: Ensure MetaMask is installed and connected to the same network as the deployed smart contract.
+View Greeting: The current greeting message will be displayed.
+Set Greeting: Enter a new greeting message and click "Set Greeting".
+View Counter: The current counter value will be displayed.
+Increment Counter: Click "Increment Counter" to increase the counter value.
+View and Add Messages: Enter a new message and click "Add Message" to add to the list of user messages. The list of messages will be displayed.
+
+## License
+This project is licensed under the MIT License.
