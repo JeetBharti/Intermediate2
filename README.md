@@ -88,6 +88,10 @@ contract EnhancedContract {
 Compile the smart contract.
 Deploy the smart contract to an Ethereum test network (e.g., Ropsten, Rinkeby) using MetaMask.
 
+## Running the Frontend
+Replace YOUR_CONTRACT_ADDRESS in the index.html file with the address of the deployed smart contract.
+Serve the frontend using an HTTP server:
+
 ## Interacting with the DApp
 Connect MetaMask: Ensure MetaMask is installed and connected to the same network as the deployed smart contract.
 View Greeting: The current greeting message will be displayed.
