@@ -1,44 +1,8 @@
-# Enhanced DApp
+/*
+For this project, create a simple contract with 2-3 functions. 
+Then show the values of those functions in frontend of the application.
+*/
 
-This project is a simple decentralized application (DApp) that interacts with a smart contract deployed on the Ethereum blockchain. The smart contract allows users to set and retrieve a greeting message, increment a counter, and add user messages.
-
-## Table of Contents
-
-- [Features](#features)
-- [Requirements](#requirements)
-- [Setup](#setup)
-- [Deploying the Smart Contract](#deploying-the-smart-contract)
-- [Running the Frontend](#running-the-frontend)
-- [Interacting with the DApp](#interacting-with-the-dapp)
-
-## Features
-
-- Set and retrieve a greeting message.
-- Increment and view a counter.
-- Add and retrieve user messages.
-
-## Requirements
-
-- [Node.js](https://nodejs.org/)
-- [MetaMask](https://metamask.io/) (Browser extension)
-- [Remix IDE](https://remix.ethereum.org/) or [Truffle](https://www.trufflesuite.com/) / [Hardhat](https://hardhat.org/) for smart contract deployment
-- [HTTP server](https://www.npmjs.com/package/http-server) (for serving the frontend)
-
-## Setup
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/yourusername/enhanced-dapp.git
-cd enhanced-dapp
-```
-
-##Deploying the Smart Contract
-# Using Remix IDE
-Open Remix IDE.
-Create a new file named EnhancedContract.sol and paste the following code:
-
-```
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
@@ -84,7 +48,3 @@ contract EnhancedContract {
         return userMessages;
     }
 }
-```
-
-
-
